@@ -1,0 +1,152 @@
+/* importing fonts from Fonts.css folder */
+
+@import url(./fonts.css);
+
+/* CSS variables */
+@import url(./_variables.css);
+
+
+/* Importing Global Styling */
+@import url(./_global.css);
+
+/*  Start Navigation Menu */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+  padding : 1rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px 'Roboto' ;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav  a:hover {
+  background : var(--gradient-color);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color : transparent;
+   background-clip: text;
+}
+
+/* End Navigation Menu */
+
+
+/* Introduction Area */
+.site-main {
+  background : url(../img/body-bg.png);
+}
+
+.site-main .site-banner {
+  background: url(../img/home-banner.png) no-repeat 0% 50%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 20%;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .banner-image > img{
+    width: 60%;
+    border-radius: 70%;
+    height : 55%;
+    margin-top: 100px;
+    margin-left : 50px;
+}
+
+/* ========Starting About Area====== */
+.about-image {
+  margin-right: 60px;
+  margin-left: 5%;
+}
+.site-main .about-area {
+  padding : 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+   display: block ;
+   font : normal bold 49px/60px var(--roboto);
+   letter-spacing: 9px;
+
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding : .4em 0;
+  font : normal 500 13px/25px 'Roboto';
+  color : var(--text-color);
+}
+
+/* ========End of About Area======== */
+
+/* ========Courses Area========= */
+.site-main .project-area {
+  padding : 4rem 0;
+  margin-left: 7%;
+}
+
+.site-main .project-area .our-project > title h4 {
+  font : normal 700 25px/12px var(--roboto);
+  margin-left: 7%;
+}
+
+/* ========End Of Courses Area ======= */
+
+
+/* =========My Travel Carousel========= */
+.carousel-inner {
+      margin-left: 0 auto;
+       background-position: center;
+    }
+
+
+/* ==========Footer Area =========== */
+footer.footer-area {
+  padding : 5rem 0;
+  background : url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font : normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  padding : 2rem;
+  font-size : 35px;
+  color : var(--border-color);
+}
+
+
+footer.footer-area .social a:hover > i {
+  color : var(--primary-color);
+}

@@ -1,0 +1,34 @@
+
+
+@media only screen and (max-width:340px) {
+  .header_area .main-menu .navbar  , .header_area .main-menu .navbar .navbar-brand , .site-main {
+    padding : 2%;
+    margin : 0;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+}
+
+
+@media only screen and (max-width : 792px) {
+  .site-main .about-area .about-title h2 > span{
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+}
+
+
+@media only screen and (max-width : 1910px) {
+  .header_area .main-menu .navbar {
+    padding : 1rem;
+  }
+  .container {
+    max-width :90%;
+  }
+
+  .site-main .brand-area ,
+  .site-main .about-area {
+    padding : 3% 4%;
+  }
+}

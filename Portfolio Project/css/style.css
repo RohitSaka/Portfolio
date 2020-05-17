@@ -20,7 +20,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px 'Roboto' ;
+    font: normal 500 15px/2px 'Tomorrow' ;
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -137,7 +137,7 @@ footer.footer-area {
 }
 
 footer.footer-area .social h5 {
-  font : normal 500 23px/30px var(--roboto);
+  font : normal 500 23px/30px 'Tomorrow';
 }
 
 footer.footer-area .social a > i {
@@ -149,4 +149,44 @@ footer.footer-area .social a > i {
 
 footer.footer-area .social a:hover > i {
   color : var(--primary-color);
+}
+
+
+/* ==========  Contact Area ======== */
+.contact-image {
+  margin-right: 60px;
+  margin-left: 5%;
+}
+.site-main .contact-area {
+  padding : 8rem 5rem;
+}
+
+.site-main .contact-area {
+  background: url(../img/home-banner.png)  0% 50%;
+}
+
+.site-main .contact-area .contact-title  {
+  padding : .4em 0;
+  font : normal 500 13px/25px 'Tomorrow';
+  color : var(--text-color);
+}
+
+/* ============ Work Area =========== */
+
+.site-main .site-work {
+  background : url(../img/body-bg.png);
+}
+.site-main .site-work .work-title h4 {
+   display: block ;
+   font : normal bold 49px/60px 'Roboto';
+   letter-spacing: 9px;
+   margin-top: 20%;
+   margin-left: 5%;
+
+}
+
+.work-logo {
+  margin-top : 6%;
+  margin-left: 2%;
+
 }

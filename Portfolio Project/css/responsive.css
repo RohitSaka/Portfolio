@@ -8,6 +8,11 @@
   .site-main .site-banner .site-title h1 {
     font-size: 41px;
   }
+  .site-main  .contact-area .contact-title a {
+    font-size : 31px;
+    letter-spacing: 10px;
+    text-decoration: none;
+  }
 }
 
 
@@ -15,6 +20,27 @@
   .site-main .about-area .about-title h2 > span{
     font-size: 31px;
     letter-spacing: 10px;
+  }
+  .contact-image{
+    width : 100%;
+    height: auto;
+      margin-right: 60px;
+      margin-left: 4%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  .site-main  .contact-area .contact-title a {
+    margin-right: auto;
+    font-size : 35px;
+    letter-spacing: 10px;
+    text-decoration: none;
+  }
+  .site-main  .contact-area .contact-title a:hover {
+    margin-right: auto;
+    font-size : 35px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    color : linear-gradient(to right top, #1d00a6, #5600b7, #7f00c7, #a600d6, #cc00e4, #a65afa, #837dff, #6d95ff, #00b6ff, #00d2ff, #00eaff, #14fff0);
   }
 }
 
@@ -30,5 +56,11 @@
   .site-main .brand-area ,
   .site-main .about-area {
     padding : 3% 4%;
+  }
+  .site-main  .contact-area .contact-title a {
+    margin-right: auto;
+    font-size : 35px;
+    letter-spacing: 10px;
+    text-decoration: none;
   }
 }
